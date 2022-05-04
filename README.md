@@ -140,6 +140,7 @@ then add,
         state: restarted
         enabled: true
 ```
+
  **Check syntax**
  
  Once the playbook is created, we need to check the syntax and execute the playbook:
@@ -156,34 +157,9 @@ then add,
  ```
  Now our setup is complete and you can point your linux and ubuntu servers public IP to the domain name.
 
- 
 ## Conclusion
- **Check syntax**
- 
- Once the playbook is created, we need to check the syntax and execute the playbook:
- 
- ```bash
- ansible-playbook -i hosts docker-container --syntax-check
- ```
- ![image](https://user-images.githubusercontent.com/100775027/166636654-f9480cdc-1ee3-4ee3-8383-1f758f539cf6.png)
 
-**Execute the playbook**
- 
- ```bash
- ansible-playbook -i hosts docker-container
- ```
- Now our setup is complete and you can point your server public IP to the domain name.
- ![image](https://user-images.githubusercontent.com/100775027/166637067-2f2f0b3d-e17b-4626-bdb2-8672fb2ac9cf.png)
-
- 
-## Conclusion
-This is how we create wordpress site using docker-container with Ansible. Please contact me when you encounter any difficulty error while using this terrform code. Thank you and have a great day!
-
- ### ⚙️ Connect with Me
-<p align="center">
-<a href="https://www.linkedin.com/in/radin-lawrence-8b3270102/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:radin.lawrence@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
- Please contact me when you encounter any difficulty error while using this terrform code. Thank you and have a great day!
+ This is how we create LAMP server for Linux and Ubuntu OS servers using Ansible. .Please contact me when you encounter any difficulty error while using this terrform code. Thank you and have a great day!
 
  ### ⚙️ Connect with Me
 <p align="center">
