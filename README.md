@@ -146,20 +146,20 @@ then add,
  Once the playbook is created, we need to check the syntax and execute the playbook:
  
  ```bash
- ansible-playbook -i hosts docker-container --syntax-check
+ ansible-playbook -i inventory docker-container --syntax-check
  ```
  ![image](https://user-images.githubusercontent.com/100775027/166636654-f9480cdc-1ee3-4ee3-8383-1f758f539cf6.png)
 
 **Execute the playbook**
  
  ```bash
- ansible-playbook -i hosts docker-container
+ ansible-playbook -i inventory docker-container
  ```
  Now our setup is complete and you can point your linux and ubuntu servers public IP to the domain name.
 
 ## Conclusion
 
- This is how we create LAMP server for Linux and Ubuntu OS servers using Ansible. .Please contact me when you encounter any difficulty error while using this terrform code. Thank you and have a great day!
+ This is how we create LAMP server for Linux and Ubuntu OS servers using Ansible. Please contact me when you encounter any difficulty error while using this terrform code. Thank you and have a great day!
 
  ### ⚙️ Connect with Me
 <p align="center">
